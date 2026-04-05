@@ -1,4 +1,4 @@
-# HoneyPot
+                                                --  HoneyPot  -- 
 Advanced multi-threaded honeypot system built in Python to simulate a vulnerable server, capture real attacker behavior, detect malicious patterns, and deploy deception techniques using a fake filesystem.
 
 # 🛡️ Advanced Honeypot System (Cybersecurity Project)
@@ -20,19 +20,33 @@ This project demonstrates both **offensive understanding** and **defensive secur
 
 ---
 
-## 🧱 Architecture
+🧱 Architecture
 
 Attacker → Honeypot Server → Logger → Detection Engine → Logs
 
----
-
-## 🛠️ Tech Stack
-
-- Python (Socket Programming, Threading)
-- JSON (Structured logging)
-- Custom Detection Engine
+🛠️ Tech Stack
+Python (Socket Programming, Threading)
+JSON Logging
+Custom Detection Engine
 
 ---
+
+
+📂 Project Structure
+
+honeypot.py → Main server
+fake_fs.py → Fake file system
+detector.py → Attack detection
+logger.py → Logging engine
+
+---
+
+## ⚙️ How to Run
+python3 honeypot.py
+
+Test using:
+
+nc localhost 2222
 
 ---
 

@@ -1,4 +1,4 @@
-                                                --  HoneyPot  -- 
+                                          --  HoneyPot  -- 
 Advanced multi-threaded honeypot system built in Python to simulate a vulnerable server, capture real attacker behavior, detect malicious patterns, and deploy deception techniques using a fake filesystem.
 
 # 🛡️ Advanced Honeypot System (Cybersecurity Project)

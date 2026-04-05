@@ -52,7 +52,6 @@ Attacker → Honeypot Server → Logger → Detection Engine → Logs
 ```json
 {
   "ip": "45.33.32.1",
-  },
   "username": "root",
   "password": "admin",
   "command": "cat /etc/passwd",

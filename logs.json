@@ -1,0 +1,49 @@
+[
+    {
+        "ip": "127.0.0.1",
+        "username": "root",
+        "password": "123456",
+        "event": "login_attempt",
+        "timestamp": "2026-04-05T15:16:41.363628"
+    },
+    {
+        "ip": "127.0.0.1",
+        "username": "root",
+        "command": "ls",
+        "event": "command",
+        "timestamp": "2026-04-05T15:16:42.674517"
+    },
+    {
+        "ip": "127.0.0.1",
+        "username": "root",
+        "command": "cat /etc/passwd",
+        "event": "command",
+        "timestamp": "2026-04-05T15:16:56.491689"
+    },
+    {
+        "ip": "127.0.0.1",
+        "file": "/etc/passwd",
+        "event": "file_access_trap",
+        "timestamp": "2026-04-05T15:16:56.493708"
+    },
+    {
+        "ip": "127.0.0.1",
+        "username": "root",
+        "command": "wget malware.sh",
+        "event": "command",
+        "timestamp": "2026-04-05T15:17:10.524848"
+    },
+    {
+        "ip": "127.0.0.1",
+        "alert": "Suspicious command detected: wget",
+        "event": "alert",
+        "timestamp": "2026-04-05T15:17:10.526358"
+    },
+    {
+        "ip": "127.0.0.1",
+        "username": "root",
+        "command": "ls",
+        "event": "command",
+        "timestamp": "2026-04-05T15:17:16.386600"
+    }
+]
